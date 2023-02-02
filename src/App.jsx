@@ -10,8 +10,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Feed />} />
-          <Route path="/video/:id" element={<VideoDetails />} />
-          <Route path="/channel:id" element={<ChannelDetails />} />
+          <Route path="/watch/:id" element={<VideoDetails />} />
+          <Route path="/channel/:id" element={<ChannelDetails />} />
           <Route path="/search/:term" element={<SearchFeed />} />
         </Routes>
       </Box>
