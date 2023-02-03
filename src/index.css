@@ -10,6 +10,26 @@ a {
     color: black;
 }
 
+.hover {
+    background: white;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+
+.hover:hover {
+
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 5px;
@@ -34,9 +54,11 @@ a {
     color: white !important;
 }
 
+
 .react-player {
-    height: 77vh !important;
-    width: 100% !important;
+    height: 65vh !important;
+    width: 80% !important;
+    margin: auto;
 }
 
 .search-bar {
